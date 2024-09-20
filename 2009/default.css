@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+
+html, body 
+{
+    font-family: "Catamaran", sans-serif;
+    background-color: #524f4f;
+    color: #eee;
+}
+
+h1
+{
+    color: aliceblue;
+    
+}
+
+.lista1
+{
+    background-color: rgb(255, 180, 180);
+    display: flex;
+    padding: 15px;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.lista1 .item
+{
+    background-color: rgb(177, 96, 96);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 3px;
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+}
+
+.lista2
+{
+    background-color: rgb(176, 255, 162);
+    display: flex;
+    padding: 15px;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.lista2 .item
+{
+    background-color: rgb(1, 99, 13);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 3px;
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+}
+
+.lista3
+{
+    background-color: rgb(159, 245, 255);
+    display: flex;
+    padding: 15px;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lista3 .item
+{
+    background-color: rgb(50, 156, 255);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 3px;
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+}
+
+.lista4
+{
+    background-color: rgb(248, 255, 171);
+    display: flex;
+    padding: 15px;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column-reverse;
+}
+.lista4 .item
+{
+    background-color: rgb(255, 193, 47);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 3px;
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+} 
+
+
+
+
+
+
+
+
+
